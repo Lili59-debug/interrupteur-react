@@ -5,9 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #555;
+  font-size: larger;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: sans-serif;
+  
+}
+
+button:focus {
+  outline: none;
+}
+
+.eteint {
+  background-color: red;
+  color: white;
+  border:none;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.allume {
+  background-color: green;
+  color: white;
+  border:none;
+  padding: 7px;
+  border-radius: 5px;
 }
